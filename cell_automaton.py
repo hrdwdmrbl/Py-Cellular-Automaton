@@ -105,7 +105,7 @@ if __name__ == "__main__":
 	# Demo Code #
 
 	# create a new automaton of length 101 cells, that evolves with rule 129
-	my_automaton = Automaton(101, 129)
+	my_automaton = Automaton(101, 30)
 	# initialize the middle cell as a seed
 	my_automaton.init_middle()
 	# print everything out
